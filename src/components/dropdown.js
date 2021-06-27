@@ -29,6 +29,9 @@ Prompt:
   // restructured the function of toggle on click, to () => function-invoked()
   // Added text of Opened/Closed to the label of the button that triggers the toggle. to identify the current state.
 
+  // If we want to create any async behaviours then it should be run in the componentDidMount cycle hook,
+  // or the useEffect if it is a functional component.
+
 
    class Dropdown extends PureComponent {
     constructor(props) {
